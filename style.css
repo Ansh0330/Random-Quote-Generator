@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #FFD3B5, #FFAAA5, #D5AAFF);
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+/* Align Heading & Twitter Button in One Line */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+/* Adjust Heading Spacing */
+.header h1 {
+  font-size: 1.8rem;
+  color: #6B3E99;
+  margin: 0;
+}
+
+/* Quote Display */
+#quoteDisplay {
+  font-size: 1.4rem;
+  margin: 20px 0;
+  color: #444;
+  font-style: italic;
+  animation: bounceIn 0.8s ease-in-out;
+}
+
+#authorDisplay {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+/* Generate Button */
+#generateButton {
+  background: #FF7675;
+  color: white;
+}
+
+#generateButton:hover {
+  background: #FC4A4A;
+  transform: scale(1.1);
+}
+
+/* Copy Button */
+#copyButton {
+  background: #6B3E99;
+  color: white;
+}
+
+#copyButton:hover {
+  background: #5A2D8D;
+  transform: scale(1.1);
+}
+
+/* Twitter Button */
+.twitter-share-button {
+  display: inline-block;
+  background: #1DA1F2;
+  color: white;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.twitter-share-button:hover {
+  background: #0d8cd7;
+  transform: scale(1.1);
+}
+
+/* Twitter Icon */
+.ri-twitter-x-line {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
