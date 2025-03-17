@@ -29,7 +29,7 @@ A simple web app that fetches random quotes from an API, allows users to share t
 ---
 
 ## 🔗 Deployment Link 
-
+[Live Link] (https://random-quote-generator-alpha-pied.vercel.app/)
 
 
 Made with ❤️ by [Ansh](https://github.com/ansh0330)
